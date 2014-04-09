@@ -1,0 +1,16 @@
+package com.aktar.practice;
+
+import java.util.Scanner;
+
+public class Calculator1 {
+	public static void main(String[] args) {
+		Scanner y = new Scanner(System.in);
+		int FirstNum, SecondNum, Result;
+		System.out.println("Enter FirstNum");
+		FirstNum = y.nextInt();
+		System.out.println("Enter SecondNum");
+		SecondNum = y.nextInt();
+		Result = FirstNum + SecondNum;
+		System.out.println(Result);
+	}
+}

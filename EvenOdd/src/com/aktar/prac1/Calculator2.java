@@ -1,0 +1,17 @@
+package com.aktar.prac1;
+import java.util.Scanner;
+
+public class Calculator2{
+	public static void main(String[] args) {
+Scanner scan=new Scanner(System.in);
+	Double John,Jack,Mack;
+	System.out.println("Enter John");
+	John=scan.nextDouble();
+	System.out.println("Enter Jack");
+	Jack=scan.nextDouble();
+	Mack=John*Jack;
+	System.out.println(Mack);
+}	
+	
+}
+

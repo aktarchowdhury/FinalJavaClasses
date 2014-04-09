@@ -1,0 +1,19 @@
+package com.aktar.prac1;
+import java.util.Scanner;
+
+public class Calculator3 {
+
+	public static void main(String[] args) {
+
+	}
+public void Mute(){
+	Scanner key=new Scanner(System.in);
+	String Sus,Cus,Rus;
+	System.out.println("enter Sus");
+	Sus=key.next();
+	System.out.println("enter Cus");
+	Cus=key.next();
+	Rus=Sus+Cus;
+	System.out.println(Rus);
+}
+}
