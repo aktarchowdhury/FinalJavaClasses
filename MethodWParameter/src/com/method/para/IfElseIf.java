@@ -1,0 +1,16 @@
+package com.method.para;
+
+public class IfElseIf {
+
+	public static void main(String[] args) {
+		int age = 45;
+		if (age >= 55) {
+			System.out.println("Will not be promoted");
+		} else if (age > +45) {
+			System.out.println("Stay in the same");
+		} else if (age > +40) {
+			System.out.println("will be promoted");
+		}
+	}
+
+}
