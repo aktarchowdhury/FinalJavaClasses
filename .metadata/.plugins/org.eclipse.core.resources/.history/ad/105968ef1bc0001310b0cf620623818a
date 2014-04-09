@@ -1,0 +1,16 @@
+package com.method.para;
+
+public class TryWhile {
+
+	public static void main(String[] args) {
+	int age;
+	age=10;
+	while(age<20){
+		System.out.println("Value of age:"+age);
+		age++;
+	}	
+	}
+
+	}
+
+
