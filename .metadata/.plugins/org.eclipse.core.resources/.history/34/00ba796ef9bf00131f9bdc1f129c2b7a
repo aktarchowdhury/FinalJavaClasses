@@ -1,0 +1,22 @@
+package com.method.para;
+import java.util.Scanner;
+
+public class MethodParaMeter2 {
+
+	public static void main(String[] args) {
+		Scanner john=new Scanner(System.in);	
+	MethodParaMeter1 obj=new MethodParaMeter1();
+	System.out.println("Enter name");
+	String name=john.nextLine();
+	obj.Message(name);
+	String FirstWrite,SecWrite,Result;
+	System.out.println("Enter FirstWrite");	
+	FirstWrite= john.nextLine();
+	System.out.println("Enter SecWrite");
+	SecWrite=john.nextLine();
+	Result= FirstWrite +SecWrite;
+	System.out.println(Result);
+	
+}
+
+}

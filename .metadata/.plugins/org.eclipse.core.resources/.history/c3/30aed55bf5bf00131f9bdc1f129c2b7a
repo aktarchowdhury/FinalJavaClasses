@@ -1,0 +1,23 @@
+package com.method.para;
+import java.util.Scanner;
+
+public class MethodParaMeter2 {
+
+	public static void main(String[] args) {
+	MethodParaMeter1 obj=new MethodParaMeter1();
+	Sum();
+	}
+	
+public  static void Sum(){
+	Scanner john=new Scanner(System.in);
+	String FirstNum,SecNum,Result;
+	System.out.println("Enter FirstNum");
+	FirstNum= john.nextLine();
+	System.out.println("Enter SecNum");
+	SecNum=john.nextLine();
+	Result= FirstNum +SecNum;
+	System.out.println(Result);
+	
+}
+
+}

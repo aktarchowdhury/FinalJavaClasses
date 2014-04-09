@@ -1,0 +1,7 @@
+package com.method.para;
+
+public class MethodParaMeter1 {
+public static void Message(String Aktar){
+	System.out.println("Hello"+Aktar);
+}
+}
