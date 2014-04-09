@@ -1,0 +1,24 @@
+package com.aktar.practice;
+
+public class IfElse2 {
+
+	public static void main(String[] args) {
+		Guess();
+	}
+	public static void Guess() {
+		int Result;
+		Result = 3;
+		if (3 % 1 == 2) {
+			System.out.println("even");
+		}
+		if (3 % 2 == 0) {
+			System.out.println("Odd");
+		}
+		if (3 % 3 == 1.5) {
+			System.out.println("Neither even nor odd");
+		} else {
+			System.out.println("Find the right choice");
+		}
+	}
+
+}
