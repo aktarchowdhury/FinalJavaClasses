@@ -1,0 +1,26 @@
+package com.aktar.loop;
+import java.util.Scanner;
+
+public class SumAverage {
+
+	public static void main(String[] args) {
+		Scanner accurate=new Scanner(System.in);
+		int sum =0;
+		double Average=.5;
+		/*System.out.println("Write"+sum+Average);*/
+		for(int m=5;m<=100;m++){
+		System.out.println(m);
+		sum+=m;
+		for(double average =.5;average<=100;average++){
+			double c=accurate.nextDouble();
+			System.out.println(average);
+			average++;
+			System.out.println(m+c);
+		}
+	
+		
+		}
+
+	}
+
+}

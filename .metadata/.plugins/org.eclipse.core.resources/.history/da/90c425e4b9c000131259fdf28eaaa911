@@ -1,0 +1,21 @@
+package com.aktar.loop;
+
+public class SumAverage {
+
+	public static void main(String[] args) {
+		int sum =0;
+		double Average=2;
+		for(int m=1;m<=100;m++){
+		sum++;
+		for(double b=1;b<=100;b++){
+			Average++;
+			
+			System.out.print(sum);
+		}
+	System.out.println(Average);
+		
+		}
+
+	}
+
+}
