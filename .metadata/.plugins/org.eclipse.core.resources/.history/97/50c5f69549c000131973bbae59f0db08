@@ -1,0 +1,19 @@
+package com.aktar.loop;
+
+public class Array1 {
+
+	public static void main(String[] args) {
+	int[] anArray;
+	anArray=new int[100];
+	for( int x=0;x<100;x+=4){
+		anArray[x]=12;
+		System.out.println(x);
+		for(int y=1;y<100;y+=8){
+			System.out.println(y);
+		}
+	}
+
+
+	}
+
+}
