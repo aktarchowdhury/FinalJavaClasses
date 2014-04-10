@@ -1,0 +1,12 @@
+package com.aktar.practice;
+
+public class CheckPassFail {
+
+	public static void main(String[] args) {
+	int Number;
+	Number=70;
+	System.out.println("the Number is"+Number);
+
+	}
+
+}
